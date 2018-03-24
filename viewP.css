@@ -1,0 +1,101 @@
+div.container-fluid{
+	padding-left:5px;
+	padding-right:5px;
+}
+.contain-table{
+	/* width: 80%; */
+	margin: auto;
+}
+.basic-info,.house-info,.car-info{
+	
+	width: 100%;
+	/* border: 1px solid black; */
+	border-collapse:collapse;
+}
+
+.basic-info th,.house-info th,.car-info th{
+	text-align:center;
+}
+
+.turn-page{
+	text-align:center;
+}
+.basic-info td{
+	overflow:hidden;
+}
+.div-inline{
+	float:left;
+	width:7.15rem;
+	margin: 0.43rem;	
+} 
+.fileinput-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.fileinput-button input{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+}
+.contain-table{
+	font-size:0.715rem;
+}
+.table-basic input{	
+	width:50%;
+}
+
+.restaurant-1 td{
+	height:20px;
+}
+.restaurant-1 input{
+
+	width:95%;
+	border:none;
+}
+.td-width{
+	width:27%;
+	text-align:center;
+}
+.td-width-2{
+	width:25%;
+	text-align:center;
+}
+.td-width-3{
+	width:18%;
+}
+.basic-info input{
+	border:none;
+}
+.house-car-assets tr td:nth-child(1){
+	width:20%;
+}
+.info-input-1{
+	width:5.3rem;
+}
+.canExpand{
+	width:1.8rem;
+}
+.area-number{
+	width:100%;
+}
+
+@media screen and (max-width: 430px) {
+    table {
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
